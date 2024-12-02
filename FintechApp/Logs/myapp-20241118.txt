@@ -1,0 +1,421 @@
+2024-11-18T07:35:19.1431930+01:00  [INF] Now listening on: "http://localhost:5152" (d826f4b8)
+2024-11-18T07:35:19.1509280+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-11-18T07:35:19.1510720+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-11-18T07:35:19.1510800+01:00  [INF] Content root path: "/Users/tosinomotayo/Desktop/code/FintechApp/FintechApp" (cc26f24e)
+2024-11-18T07:36:24.1062230+01:00 0HN87JD96N12F:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5152""""/Transaction/process""" - "application/json" 120 (d509f86a)
+2024-11-18T07:36:24.1311840+01:00 0HN87JD96N12F:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2024-11-18T07:36:24.1320500+01:00 0HN87JD96N12F:00000001 [INF] Executing endpoint '"FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)"' (500cc934)
+2024-11-18T07:36:24.1424480+01:00 0HN87JD96N12F:00000001 [INF] Route matched with "{action = \"ProcessTransaction\", controller = \"Transaction\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessTransaction(FintechApp.TransactionRequest, FluentValidation.IValidator`1[FintechApp.TransactionRequest])" on controller "FintechApp.Controllers.TransactionController" ("FintechApp"). (122b2fdf)
+2024-11-18T07:36:24.2219670+01:00 0HN87JD96N12F:00000001 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-11-18T07:36:24.2329630+01:00 0HN87JD96N12F:00000001 [INF] Executed action "FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)" in 89.3825ms (afa2e885)
+2024-11-18T07:36:24.2330170+01:00 0HN87JD96N12F:00000001 [INF] Executed endpoint '"FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)"' (99874f2b)
+2024-11-18T07:36:24.2340720+01:00 0HN87JD96N12F:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5152""""/Transaction/process""" - 400 null "application/problem+json; charset=utf-8" 129.9612ms (74253ad3)
+2024-11-18T07:36:29.4815870+01:00 0HN87JD96N12G:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5152""""/Transaction/process""" - "application/json" 120 (d509f86a)
+2024-11-18T07:36:29.4831710+01:00 0HN87JD96N12G:00000001 [INF] Executing endpoint '"FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)"' (500cc934)
+2024-11-18T07:36:29.4835640+01:00 0HN87JD96N12G:00000001 [INF] Route matched with "{action = \"ProcessTransaction\", controller = \"Transaction\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessTransaction(FintechApp.TransactionRequest, FluentValidation.IValidator`1[FintechApp.TransactionRequest])" on controller "FintechApp.Controllers.TransactionController" ("FintechApp"). (122b2fdf)
+2024-11-18T07:36:29.4931730+01:00 0HN87JD96N12G:00000001 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-11-18T07:36:29.4941080+01:00 0HN87JD96N12G:00000001 [INF] Executed action "FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)" in 10.4007ms (afa2e885)
+2024-11-18T07:36:29.4943610+01:00 0HN87JD96N12G:00000001 [INF] Executed endpoint '"FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)"' (99874f2b)
+2024-11-18T07:36:29.4948800+01:00 0HN87JD96N12G:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5152""""/Transaction/process""" - 400 null "application/problem+json; charset=utf-8" 13.3545ms (74253ad3)
+2024-11-18T07:36:35.5941820+01:00 0HN87JD96N12H:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5152""""/swagger/index.html""" - null null (d509f86a)
+2024-11-18T07:36:35.6711100+01:00 0HN87JD96N12H:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5152""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 76.9199ms (74253ad3)
+2024-11-18T07:36:35.7825150+01:00 0HN87JD96N12H:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5152""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2024-11-18T07:36:35.8311760+01:00 0HN87JD96N12H:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5152""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 48.672ms (74253ad3)
+2024-11-18T07:36:47.2391920+01:00 0HN87JD96N12J:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5152""""/Transaction/process""" - "application/json" 120 (d509f86a)
+2024-11-18T07:36:47.2397320+01:00 0HN87JD96N12J:00000001 [INF] Executing endpoint '"FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)"' (500cc934)
+2024-11-18T07:36:47.2399160+01:00 0HN87JD96N12J:00000001 [INF] Route matched with "{action = \"ProcessTransaction\", controller = \"Transaction\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessTransaction(FintechApp.TransactionRequest, FluentValidation.IValidator`1[FintechApp.TransactionRequest])" on controller "FintechApp.Controllers.TransactionController" ("FintechApp"). (122b2fdf)
+2024-11-18T07:36:47.2451120+01:00 0HN87JD96N12J:00000001 [INF] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'. (605b4265)
+2024-11-18T07:36:47.2455240+01:00 0HN87JD96N12J:00000001 [INF] Executed action "FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)" in 5.5451ms (afa2e885)
+2024-11-18T07:36:47.2456020+01:00 0HN87JD96N12J:00000001 [INF] Executed endpoint '"FintechApp.Controllers.TransactionController.ProcessTransaction (FintechApp)"' (99874f2b)
+2024-11-18T07:36:47.2459110+01:00 0HN87JD96N12J:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5152""""/Transaction/process""" - 400 null "application/problem+json; charset=utf-8" 6.7192ms (74253ad3)
+2024-11-18T07:47:43.8101950+01:00  [INF] Now listening on: "http://localhost:5152" (d826f4b8)
+2024-11-18T07:47:43.8187720+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-11-18T07:47:43.8189500+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-11-18T07:47:43.8189590+01:00  [INF] Content root path: "/Users/tosinomotayo/Desktop/code/FintechApp/FintechApp" (cc26f24e)
+2024-11-18T07:58:01.3513940+01:00  [ERR] Hosting failed to start (2bb045e9)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5152: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2024-11-18T07:58:01.3603400+01:00  [INF] Coravel's Scheduling service is now stopped. (5849e513)
+2024-11-18T07:58:20.1828830+01:00  [INF] Now listening on: "http://localhost:5152" (d826f4b8)
+2024-11-18T07:58:20.1930200+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-11-18T07:58:20.1932150+01:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-11-18T07:58:20.1932250+01:00  [INF] Content root path: "/Users/tosinomotayo/Desktop/code/FintechApp/FintechApp" (cc26f24e)
+2024-11-18T07:58:30.5656990+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.5657010+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.5657020+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.5657000+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.5657000+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.6496420+01:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (Size = 15), @p5='?' (Size = 24), @p6='?' (Size = 24), @p7='?' (Size = 16), @p8='?' (Size = 10), @p9='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"TransactionArchives\" (\"Id\", \"Amount\", \"ArchivedAt\", \"CreatedDate\", \"EmailAddress\", \"EncryptedCardPAN\", \"ExpiryDate\", \"MaskedCardPAN\", \"Status\", \"UpdatedDate\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);" (0723d8ff)
+2024-11-18T07:58:30.6506510+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (Size = 15), @p5='?' (Size = 24), @p6='?' (Size = 24), @p7='?' (Size = 16), @p8='?' (Size = 10), @p9='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"TransactionArchives\" (\"Id\", \"Amount\", \"ArchivedAt\", \"CreatedDate\", \"EmailAddress\", \"EncryptedCardPAN\", \"ExpiryDate\", \"MaskedCardPAN\", \"Status\", \"UpdatedDate\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);" (0723d8ff)
+2024-11-18T07:58:30.6507360+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (Size = 15), @p5='?' (Size = 24), @p6='?' (Size = 24), @p7='?' (Size = 4), @p8='?' (Size = 10), @p9='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"TransactionArchives\" (\"Id\", \"Amount\", \"ArchivedAt\", \"CreatedDate\", \"EmailAddress\", \"EncryptedCardPAN\", \"ExpiryDate\", \"MaskedCardPAN\", \"Status\", \"UpdatedDate\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);" (0723d8ff)
+2024-11-18T07:58:30.6512790+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"Transactions\"
+WHERE \"Id\" = @p0
+RETURNING 1;" (0723d8ff)
+2024-11-18T07:58:30.6519590+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"Transactions\"
+WHERE \"Id\" = @p0
+RETURNING 1;" (0723d8ff)
+2024-11-18T07:58:30.6520280+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM \"Transactions\"
+WHERE \"Id\" = @p0
+RETURNING 1;" (0723d8ff)
+2024-11-18T07:58:30.7992360+01:00  [ERR] Failed executing DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (Size = 15), @p5='?' (Size = 24), @p6='?' (Size = 24), @p7='?' (Size = 16), @p8='?' (Size = 10), @p9='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"TransactionArchives\" (\"Id\", \"Amount\", \"ArchivedAt\", \"CreatedDate\", \"EmailAddress\", \"EncryptedCardPAN\", \"ExpiryDate\", \"MaskedCardPAN\", \"Status\", \"UpdatedDate\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);" (627a98df)
+2024-11-18T07:58:30.8171210+01:00  [ERR] An exception occurred in the database while saving changes for context type '"AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TransactionJob.Invoke() in /Users/tosinomotayo/Desktop/code/FintechApp/FintechApp/Jobs/TransactionJob.cs:line 36
+   at Coravel.Scheduling.Schedule.Event.ScheduledEvent.InvokeScheduledEvent(CancellationToken cancellationToken) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Event/ScheduledEvent.cs:line 119
+2024-11-18T07:58:30.8495860+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.8503330+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.8738610+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.8744940+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:30.9478080+01:00  [ERR] Failed executing DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (Size = 15), @p5='?' (Size = 24), @p6='?' (Size = 24), @p7='?' (Size = 16), @p8='?' (Size = 10), @p9='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"TransactionArchives\" (\"Id\", \"Amount\", \"ArchivedAt\", \"CreatedDate\", \"EmailAddress\", \"EncryptedCardPAN\", \"ExpiryDate\", \"MaskedCardPAN\", \"Status\", \"UpdatedDate\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);" (627a98df)
+2024-11-18T07:58:30.9488380+01:00  [ERR] An exception occurred in the database while saving changes for context type '"AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TransactionJob.Invoke() in /Users/tosinomotayo/Desktop/code/FintechApp/FintechApp/Jobs/TransactionJob.cs:line 36
+   at Coravel.Scheduling.Schedule.Event.ScheduledEvent.InvokeScheduledEvent(CancellationToken cancellationToken) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Event/ScheduledEvent.cs:line 119
+   at Coravel.Scheduling.Schedule.Event.ScheduledEvent.InvokeScheduledEvent(CancellationToken cancellationToken) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Event/ScheduledEvent.cs:line 119
+   at Coravel.Scheduling.Schedule.Scheduler.<>c__DisplayClass27_0.<<InvokeEvent>g__Invoke|0>d.MoveNext() in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Scheduler.cs:line 165
+--- End of stack trace from previous location ---
+2024-11-18T07:58:31.0981740+01:00  [ERR] Failed executing DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (Size = 15), @p5='?' (Size = 24), @p6='?' (Size = 24), @p7='?' (Size = 16), @p8='?' (Size = 10), @p9='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"TransactionArchives\" (\"Id\", \"Amount\", \"ArchivedAt\", \"CreatedDate\", \"EmailAddress\", \"EncryptedCardPAN\", \"ExpiryDate\", \"MaskedCardPAN\", \"Status\", \"UpdatedDate\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);" (627a98df)
+2024-11-18T07:58:31.0989850+01:00  [ERR] An exception occurred in the database while saving changes for context type '"AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TransactionJob.Invoke() in /Users/tosinomotayo/Desktop/code/FintechApp/FintechApp/Jobs/TransactionJob.cs:line 36
+   at Coravel.Scheduling.Schedule.Event.ScheduledEvent.InvokeScheduledEvent(CancellationToken cancellationToken) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Event/ScheduledEvent.cs:line 119
+   at Coravel.Scheduling.Schedule.Event.ScheduledEvent.InvokeScheduledEvent(CancellationToken cancellationToken) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Event/ScheduledEvent.cs:line 119
+   at Coravel.Scheduling.Schedule.Scheduler.<>c__DisplayClass27_0.<<InvokeEvent>g__Invoke|0>d.MoveNext() in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Scheduler.cs:line 165
+--- End of stack trace from previous location ---
+   at Coravel.Scheduling.Schedule.Scheduler.InvokeEvent(ScheduledEvent scheduledEvent, ILogger`1 logger) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Scheduler.cs:line 185
+2024-11-18T07:58:31.2238270+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:31.2238270+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:31.2703720+01:00  [ERR] Failed executing DbCommand ("0"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime), @p4='?' (Size = 15), @p5='?' (Size = 24), @p6='?' (Size = 24), @p7='?' (Size = 16), @p8='?' (Size = 10), @p9='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"TransactionArchives\" (\"Id\", \"Amount\", \"ArchivedAt\", \"CreatedDate\", \"EmailAddress\", \"EncryptedCardPAN\", \"ExpiryDate\", \"MaskedCardPAN\", \"Status\", \"UpdatedDate\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);" (627a98df)
+2024-11-18T07:58:31.2704020+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:31.2938280+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:31.3195220+01:00  [ERR] An exception occurred in the database while saving changes for context type '"AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: TransactionArchives.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TransactionJob.Invoke() in /Users/tosinomotayo/Desktop/code/FintechApp/FintechApp/Jobs/TransactionJob.cs:line 36
+   at Coravel.Scheduling.Schedule.Event.ScheduledEvent.InvokeScheduledEvent(CancellationToken cancellationToken) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Event/ScheduledEvent.cs:line 119
+   at Coravel.Scheduling.Schedule.Event.ScheduledEvent.InvokeScheduledEvent(CancellationToken cancellationToken) in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Event/ScheduledEvent.cs:line 119
+   at Coravel.Scheduling.Schedule.Scheduler.<>c__DisplayClass27_0.<<InvokeEvent>g__Invoke|0>d.MoveNext() in /workspaces/coravel/Src/Coravel/Scheduling/Schedule/Scheduler.cs:line 165
+2024-11-18T07:58:31.3532330+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:32.1413900+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:33.1160740+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:34.1399960+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:35.1864950+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:36.1877700+01:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:37.1594850+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:38.1852130+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:39.1813540+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:40.1834410+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:41.1355790+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:42.1845950+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:43.1629470+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:44.1876860+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:45.1886150+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:46.1380760+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:47.1386950+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:48.1131260+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:49.1877490+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:50.1854030+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:51.1638590+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:52.1394810+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:53.1842790+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:54.1868740+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:55.1381510+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:56.1601860+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:57.1593530+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:58.1577410+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:58:59.1781520+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:00.1843070+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:01.1867150+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:02.1885140+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:03.1875210+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:04.1610480+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:05.1798380+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:06.1808130+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:07.1893770+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)
+2024-11-18T07:59:08.1883320+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"t\".\"Id\", \"t\".\"Amount\", \"t\".\"CreatedDate\", \"t\".\"EmailAddress\", \"t\".\"EncryptedCardPAN\", \"t\".\"ExpiryDate\", \"t\".\"MaskedCardPAN\", \"t\".\"Status\", \"t\".\"UpdatedDate\"
+FROM \"Transactions\" AS \"t\"" (0723d8ff)

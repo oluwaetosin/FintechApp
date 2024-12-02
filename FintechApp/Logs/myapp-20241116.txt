@@ -1,0 +1,33 @@
+2024-11-16T11:35:15.6461430+01:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*) FROM \"sqlite_master\" WHERE \"name\" = '__EFMigrationsHistory' AND \"type\" = 'table';" (0723d8ff)
+2024-11-16T11:35:15.6562710+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*) FROM \"sqlite_master\" WHERE \"name\" = '__EFMigrationsHistory' AND \"type\" = 'table';" (0723d8ff)
+2024-11-16T11:35:15.6621640+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2024-11-16T11:35:15.6672050+01:00  [INF] Applying migration '"20241116103500_newmodels"'. (0e2ac64d)
+2024-11-16T11:35:15.6853780+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"TransactionArchives\" (
+    \"Id\" TEXT NOT NULL CONSTRAINT \"PK_TransactionArchives\" PRIMARY KEY,
+    \"MaskedCardPAN\" TEXT NOT NULL,
+    \"EncryptedCardPAN\" TEXT NOT NULL,
+    \"ExpiryDate\" TEXT NOT NULL,
+    \"Amount\" TEXT NOT NULL,
+    \"EmailAddress\" TEXT NOT NULL,
+    \"CreatedDate\" TEXT NOT NULL,
+    \"UpdatedDate\" TEXT NOT NULL,
+    \"Status\" TEXT NOT NULL,
+    \"ArchivedAt\" TEXT NOT NULL
+);" (0723d8ff)
+2024-11-16T11:35:15.6854970+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Users\" (
+    \"Id\" TEXT NOT NULL CONSTRAINT \"PK_Users\" PRIMARY KEY,
+    \"Email\" TEXT NOT NULL,
+    \"Firstname\" TEXT NOT NULL,
+    \"Lastname\" TEXT NOT NULL,
+    \"Password\" TEXT NOT NULL
+);" (0723d8ff)
+2024-11-16T11:35:15.6855270+01:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20241116103500_newmodels', '8.0.10');" (0723d8ff)

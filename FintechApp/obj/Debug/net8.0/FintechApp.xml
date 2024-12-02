@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FintechApp</name>
+    </assembly>
+    <members>
+        <member name="M:FintechApp.Controllers.TransactionController.ProcessTransaction(FintechApp.TransactionRequest,FluentValidation.IValidator{FintechApp.TransactionRequest})">
+            <summary>
+            Process Transaction
+            </summary>
+            <param name="request">Request to Process</param>
+            <returns>success message</returns>
+        </member>
+        <member name="T:FintechApp.Migrations.init">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FintechApp.Migrations.Schemaupdate">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.Schemaupdate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.Schemaupdate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.Schemaupdate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FintechApp.Migrations.emailaddress">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.emailaddress.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.emailaddress.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.emailaddress.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FintechApp.Migrations.newmodels">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.newmodels.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.newmodels.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FintechApp.Migrations.newmodels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
